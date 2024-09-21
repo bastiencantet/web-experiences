@@ -33,7 +33,7 @@ export default function RootLayout({
                 {children}
             </div>
               <footer className="w-full flex items-center justify-center border-t mx-auto text-center fixed text-xs gap-8 py-2 bottom-0">
-                <p>
+                <p className={"py-3"}>
                   Built with ❤️ by{" "}
                     <Link
                         href="https://github.com/bastiencantet"
