@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 
 export function Card({ title, description, image, href }
@@ -9,8 +10,10 @@ export function Card({ title, description, image, href }
 
                 {/* Image Section */}
                 <div className="w-1/2 h-64">
-                    <img
+                    <Image
                         src={image}
+                        width={300}
+                        height={300}
                         alt={title}
                         className="object-cover w-full h-full"
                     />
