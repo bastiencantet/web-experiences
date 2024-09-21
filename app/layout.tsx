@@ -32,8 +32,7 @@ export default function RootLayout({
             <div>
                 {children}
             </div>
-            <div className={"absolute h-full w-full"}>
-              <footer className="w-full flex items-center justify-center border-t mx-auto text-center text-xs gap-8 py-2">
+              <footer className="w-full flex items-center justify-center border-t mx-auto text-center fixed text-xs gap-8 py-2 bottom-0">
                 <p>
                   Built with ❤️ by{" "}
                     <Link
@@ -45,7 +44,6 @@ export default function RootLayout({
                 </p>
                 <ThemeSwitcher />
               </footer>
-            </div>
           </main>
         </ThemeProvider>
       </body>
