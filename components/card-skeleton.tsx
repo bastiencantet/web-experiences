@@ -1,9 +1,9 @@
 export function SkeletonCard() {
     return (
-        <div className="border rounded-lg shadow-md overflow-hidden flex w-full max-w-2xl animate-pulse">
+        <div className="border rounded-lg shadow-md overflow-hidden flex flex-col sm:flex-row w-full max-w-2xl animate-pulse">
 
             {/* Image Section */}
-            <div className="w-1/2 h-64 bg-gray-300 dark:bg-gray-700">
+            <div className="w-full sm:w-1/2 h-64 bg-gray-300 dark:bg-gray-700">
                 {/* Placeholder for the image */}
             </div>
 
