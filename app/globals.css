@@ -67,3 +67,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.custom-gradient-outline {
+  font-size: 6rem;
+  color: transparent;
+  -webkit-text-stroke: 2px;
+  background: linear-gradient(90deg, #f00, #0f0, #00f); /* Define your gradient colors */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; /* Make the inside of the text transparent */
+}
+
